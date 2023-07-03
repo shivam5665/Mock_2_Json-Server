@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+
+}
+.buttons{
+    display: flex;
+    width: 450px;
+    justify-content: space-around;
+    margin: auto;
+    
+    
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: aqua;
+    font-weight: bolder;
+
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Data</title>
+  <link rel="stylesheet" type="text/css" href="./style/data.css">
+</head>
+<body>
+    <nav>
+        <a href="./reports.html" >Reports</a>
+        
+    </nav>
+  <h1>User Data</h1>
+
+  <!-- Sorting Options -->
+  <label for="sortSelect">Sort By:</label>
+  <select id="sortSelect">
+    <option value="">None</option>
+    <option value="name">Name</option>
+    <option value="age">Age</option>
+    <option value="place">Place</option>
+    <option value="batch_name">Batch Name</option>
+    <option value="profession">Profession</option>
+  </select>
+
+  <!-- Filtering Options -->
+  <label for="filterSelect">Filter By Profession:</label>
+  <select id="filterSelect">
+    <option value="">All</option>
+    <option value="FSD">FSD</option>
+    <option value="Frontend">Frontend</option>
+    <option value="Backend">Backend</option>
+    <option value="Student">Student</option>
+  </select>
+
+  <!-- Search Option -->
+  <label for="searchInput">Search by Name:</label>
+  <input type="text" id="searchInput" placeholder="Enter name">
+
+  <div id="userData"></div>
+
+  <script src="./src/data.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "name": "Shiva",
+      "age": 15,
+      "place": "Agra",
+      "batch_name": "WEB-20",
+      "profession": "Student",
+      "id": 1
+    },
+    {
+      "name": "Saurabh",
+      "age": 21,
+      "place": "mathura",
+      "batch_name": "WEB-14",
+      "profession": "Backend",
+      "id": 2
+    },
+    {
+      "name": "akash",
+      "age": 15,
+      "place": "patna",
+      "batch_name": "WEB-13",
+      "profession": "FSD",
+      "id": 3
+    },
+    {
+      "name": "Saurabh Sharma",
+      "age": 25,
+      "place": "Mathura",
+      "batch_name": "WEB-14",
+      "profession": "Student",
+      "id": 4
+    }
+  ]
+}
